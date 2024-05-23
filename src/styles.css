@@ -12,6 +12,8 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  /* add a smooth scroll */
+  scroll-behavior: smooth;
 }
 
 div#main {
@@ -123,3 +125,13 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+/* add a slide In Left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} 
+
