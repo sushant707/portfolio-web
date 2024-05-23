@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/sketchbook.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Pencil sketch of a hand in a relaxed, open position.";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a driven and innovative software developer with a passion for building efficient and user-friendly applications. My goal is to leverage my skills in React JS and Next JS to create cutting-edge solutions that make a meaningful impact.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a curious and innovative software developer with a passion for building efficient and user-friendly applications. With a strong foundation in web development and a keen eye for detail, I continually seek out new challenges and opportunities to grow. I believe that technology should be accessible to all, and I strive to create solutions that make a positive impact on people's lives. As a creative problem solver, I enjoy exploring new technologies and approaches to drive innovation and make a difference. 'The best way to predict the future is to invent it' - Alan Kay, a quote that inspires me to continually push boundaries and explore new possibilities.";
 
 const About = () => {
   return (

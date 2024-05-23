@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Modern desk setup with a laptop and an open notebook, ready for work.";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "AI integration using chatgpt API (ChatBot) 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a ChatGPT clone using Next.js and the official ChatGPT API, showcasing API management expertise. The project replicated advanced conversational capabilities, including contextual understanding and text generation, integrated with a high-performance Next.js frontend.",
+    url: "https://chat-bot-ai-ruby.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Gemini AI Chatbot Clone (React JS & Gemini API)",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built an advanced chatbot clone of Gemini's AI customer support platform using React JS and the Gemini AI API. Successfully replicated functionality like intent recognition, entity extraction, and response generation, integrating it with a user-friendly React frontend.",
+    url: "https://gemini-clone-bay.vercel.app/",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://sushant707.github.io/resume/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "YouTube home page clone",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Built a YouTube homepage clone using ReactJS, TailwindCSS, and TypeScript, replicating the familiar layout and functionalities. This project showcases proficiency in modern web technologies and the ability to create complex UIs with clean code.",
+    url: "https://youtube-home-page-clone-react-js.vercel.app/",
   },
 ];
 
